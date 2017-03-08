@@ -1,5 +1,5 @@
 /**
- * Created by sahil.sethi on 2017-01-22.
+ * Created by sahil.sethi
  */
 var NUMBER_OF_COLS = 8,
     NUMBER_OF_ROWS = 8,
@@ -462,7 +462,6 @@ function getPieceAtBlockForTeam(teamOfPieces, clickedBlock) {
 * Function to highlight the selected piece
 * */
 function selectPiece(pieceAtBlock) {
-    debugger;
     // Draw outline
     ctx.lineWidth = SELECT_LINE_WIDTH;
     ctx.strokeStyle = HIGHLIGHT_COLOUR;
